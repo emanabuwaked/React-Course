@@ -1,11 +1,11 @@
-import React from "react";
+import React from 'react'
 
 function ChildComponent(props) {
   return (
     <div>
-      <button onClick = {props.greetHandler}>Greet Parent</button>
+      <button onClick={()=>props.greethandler("child")}>click</button>
     </div>
   );
 }
 
-export default ChildComponent;
+export default ChildComponent
