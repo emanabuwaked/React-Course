@@ -18,6 +18,7 @@ import FragmentDemo from "./components/FragmentDemo";
 import Columns from "./components/Columns";
 import Table from "./components/Table"
 import Pure from "./components/PureComp";
+import ParentComp from "./components/ParentComp";
 
 function App() {
   return (
@@ -56,7 +57,10 @@ function App() {
 
       {/* <Table/> */}
 
-      <Pure/>
+      {/* <Pure/> */}
+
+      <ParentComp/>
+      
     </div>
   );
 }

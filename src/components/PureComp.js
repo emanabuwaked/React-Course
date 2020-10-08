@@ -1,12 +1,9 @@
 import React, { PureComponent } from 'react'
 
-export class Pure extends PureComponent {
+class Pure extends PureComponent {
     render() {
-        return (
-            <div>
-                Pure Component
-            </div>
-        )
+        console.log("Pure Component");
+        return <div>Pure Component {this.props.name}</div>;
     }
 }
 

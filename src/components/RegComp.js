@@ -1,8 +1,9 @@
 import React, { Component } from "react";
 
-export class RegComp extends Component {
+class RegComp extends Component {
   render() {
-    return <div>regular component</div>;
+    console.log("regular component");
+    return <div>regular component {this.props.name}</div>;
   }
 }
 
