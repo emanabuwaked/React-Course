@@ -1,5 +1,6 @@
 // import React from "react";
-// import Person from "./Person"
+//import Person from "./Person"
+import Person from "./Person"
 // function NameList() {
 //   const persons = [
 //     { age: 25, name: "eman" },
@@ -41,11 +42,14 @@ const persons = [
   { id: 2, age: 25, name: "eman" },
   { id: 3, age: 31, name: "ahmad" },
 ];
+const names = ["eman", "moon", "waked"]
 
 class NameList extends Component {
   render() {
-    var personList = persons.map((person) => <div>{person.name}</div>);
-    return <div>{personList}</div>;
+    // var personList = persons.map((person) => <Person key ={person.id} person = {person}/>);
+    // return <div>{personList}</div>;
+  var nameList = names.map((name,index)=> <p key = {index}> id: {index}, name: {name}</p>)
+    return <div>{nameList}</div>;
   }
 }
 

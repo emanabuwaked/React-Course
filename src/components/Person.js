@@ -1,11 +1,11 @@
-// import React from "react";
+import React from "react";
 
-// function Person({person }) {
-//   return (
-//     <div>
-//       Iam {person.name}. Iam {person.age}
-//     </div>
-//   );
-// }
+function Person({ person }) {
+  return (
+    <div>
+      <div>{person.name}</div>
+    </div>
+  );
+}
 
-// export default Person;
+export default Person;
