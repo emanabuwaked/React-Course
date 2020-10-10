@@ -10,15 +10,21 @@ import "./App.css";
 import ClassClick from "./components/ClassClick";
 import EventBind from "./components/EventBind";
 import ParentComponent from "./components/ParentComponent";
-import UserGreeting from "./components/UserGreeting"
+import UserGreeting from "./components/UserGreeting";
 import NameList from "./components/NameList";
-import Form from "./components/Form"
+import Form from "./components/Form";
 import LifeCycleA from "./components/LifeCycleA";
 import FragmentDemo from "./components/FragmentDemo";
 import Columns from "./components/Columns";
-import Table from "./components/Table"
+import Table from "./components/Table";
 import Pure from "./components/PureComp";
 import ParentComp from "./components/ParentComp";
+import RefsDemo from "./components/RefsDemo";
+import PortalDemo from "./components/PortalDemo";
+import Hero from "./components/Hero";
+import ErrorBoundary from "./components/ErrorBoundary";
+import ClickCounter from "./components/ClickCounter";
+import HoverCounter from "./components/HoverCounter";
 
 function App() {
   return (
@@ -59,8 +65,22 @@ function App() {
 
       {/* <Pure/> */}
 
-      <ParentComp/>
-      
+      {/* <ParentComp/> */}
+
+      {/* <RefsDemo/> */}
+
+      {/* < PortalDemo/> */}
+
+      {/* <ErrorBoundary>
+        <Hero heroName="moon" />
+      </ErrorBoundary>
+      <ErrorBoundary>
+        <Hero heroName="eman" />
+      </ErrorBoundary> */}
+
+      <ClickCounter/>
+
+      <HoverCounter/>
     </div>
   );
 }
