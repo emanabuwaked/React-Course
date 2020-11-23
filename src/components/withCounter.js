@@ -1,18 +1,18 @@
 import React from "react";
 
-const UpdateComponent = (originalComponent)=>{
-    
-    
+const UpdateComponent = (originalComponent) => {
+
+
     class newComponent extends React.Component {
         render() {
             return (
-              <originalComponent name ="eman" />  
+                <originalComponent name="eman" />
             )
         }
     }
-      
+
     return newComponent
 }
-  
-export  default UpdateComponent
-/////////////////////////////////////////////////////////////////////////////////////
+
+export default UpdateComponent
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
